@@ -10,6 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     margin : 0px ;
+    height: 100vh;
 }
 
 .card {
@@ -18,8 +19,9 @@ body{
     justify-content: center;
     align-items: center;
     height: auto;
-    width: 800px;
+   width: auto;
 }
+
 #locationinput{
     margin-top: auto;
     margin-bottom: 30px;
@@ -31,12 +33,12 @@ body{
    color: white;
   font-size: large;
   text-align: center;
-
-
 }
+
 #locationinput:focus , #city:active  {
     background-color: #111;
    }
+   
 #searchbtn{
    
         width: 210px;
@@ -49,6 +51,7 @@ body{
         position: relative;
         border-radius: 10px;
         font-size: larger;
+        cursor:pointer;
       
     }
     
@@ -98,12 +101,10 @@ body{
         50% { background-position: 400% 0; }
         100% { background-position: 0 0; }
     }
-    .information  {
-        margin: 10px ;
-        font-size: large;
-        color: rgb(245, 236, 236);
-        text-align: center;
-        background-color: rgb(0, 0, 0);
-        padding: 10px , 12px;
-        border-radius: 4px;
+    #weather-icon {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 10px; 
+        margin-bottom: 0;
+        display: none;
     }
