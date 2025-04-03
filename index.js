@@ -1,5 +1,5 @@
 function fetchWeather(location){
-  const apikey = '03d4a256a600829ac4f354309d80cdd5'
+  const apikey = '//API KEY'
    const locationinput = document.querySelector('#locationinput').value
    if(!locationinput){
     console.log('please enter the city name')
